@@ -27,7 +27,7 @@ items:
     source:
       contextDir: minimal-notebook
       git:
-        uri: https://github.com/jharmison/jupyter-notebooks
+        uri: https://github.com/jharmison-redhat/jupyter-notebooks
         ref: odh-fixed
       type: Git
     strategy:
@@ -65,7 +65,7 @@ items:
     source:
       contextDir: tensorflow-notebook
       git:
-        uri: https://github.com/jharmison/jupyter-notebooks
+        uri: https://github.com/jharmison-redhat/jupyter-notebooks
         ref: odh-fixed
       type: Git
     strategy:
@@ -104,8 +104,8 @@ items:
     source:
       contextDir: tensorflow-notebook-gpu
       git:
-        ref: feature/add-tf-gpu
-        uri: https://github.com/vpavlin/jupyter-notebooks
+        ref: odh-fixed
+        uri: https://github.com/jharmison-redhat/jupyter-notebooks
       type: Git
     strategy:
       sourceStrategy:
