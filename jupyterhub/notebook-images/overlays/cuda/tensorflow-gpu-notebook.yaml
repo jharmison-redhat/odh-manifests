@@ -23,7 +23,7 @@ items:
         name: s2i-minimal-notebook-gpu:3.6
     resources:
       limits:
-        memory: 2Gi
+        memory: 8Gi
     source:
       git:
         ref: master
@@ -66,7 +66,7 @@ items:
         name: s2i-tensorflow-notebook-gpu:3.6
     resources:
       limits:
-        memory: 512Mi
+        memory: 8Gi
     source:
       git:
         ref: master

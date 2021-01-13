@@ -36,10 +36,10 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 8Gi
       requests:
         cpu: "1"
-        memory: 2Gi
+        memory: 8Gi
     source:
       contextDir: "dist/$(cuda_version)/ubi7-x86_64/base"
       git:
@@ -79,10 +79,10 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 8Gi
       requests:
         cpu: "1"
-        memory: 2Gi
+        memory: 8Gi
     source:
       contextDir: "dist/$(cuda_version)/ubi7-x86_64/runtime/"
       git:
@@ -117,10 +117,10 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 8Gi
       requests:
         cpu: "1"
-        memory: 2Gi
+        memory: 8Gi
     source:
       contextDir: "dist/$(cuda_version)/ubi7-x86_64/runtime/cudnn7/"
       git:
@@ -155,10 +155,10 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 8Gi
       requests:
         cpu: "1"
-        memory: 2Gi
+        memory: 8Gi
     source:
       contextDir: "dist/$(cuda_version)/ubi7-x86_64/devel/"
       git:
@@ -193,10 +193,10 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 8Gi
       requests:
         cpu: "1"
-        memory: 2Gi
+        memory: 8Gi
     source:
       contextDir: "dist/$(cuda_version)/ubi7-x86_64/devel/cudnn7/"
       git:
@@ -231,10 +231,10 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 8Gi
       requests:
         cpu: "1"
-        memory: 2Gi
+        memory: 8Gi
     source:
       contextDir: "3.6"
       git:
